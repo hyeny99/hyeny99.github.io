@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 title                    : "Pickle's Brain Expansion"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "The more wrinkles, the better"
 name                     : "Hyeny Jeon"
 description              : "An amazing website."
 url                      : "https://hyeny99.github.io"
