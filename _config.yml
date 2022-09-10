@@ -104,15 +104,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyewon Jeon"
+  name             : "Hyeny"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a computer science student. My goal is to study in every continent. So far I've been to Asia, North America, and Europe. If you see me in your country, please say hi!"
   location         : "Toronto, CA"
-  email            :
+  email            : "jeonny2jeon@gmail.com"
+  github           : "hyeny99"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      #url: "jeonny2jeon@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -257,16 +258,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -294,17 +295,3 @@ defaults:
 date_format: "%Y-%m-%d"      
 
 
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
