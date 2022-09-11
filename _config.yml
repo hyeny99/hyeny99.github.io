@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Pickle's Brain Expansion"
 title_separator          : "|"
-subtitle                 : "The more wrinkles, the better"
+subtitle                 : "The more brain wrinkles, the better"
 name                     : "Hyeny Jeon"
 description              : "An amazing website."
 url                      : "https://hyeny99.github.io"
@@ -286,11 +286,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: true
+      share: false
+      related: false
       show_date: true
 date_format: "%Y-%m-%d"      
 

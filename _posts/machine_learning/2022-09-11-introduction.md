@@ -1,16 +1,12 @@
 ---
 layout: single
-title:  "Introduction to Arduino"
+title:  "Introduction to Machine Learning"
 comments: true
 summary: "Introduction to Arduino and a simple tutorial of turning on a LED"
-categories: [Physical Computing]
+categories: [ML]
 toc: true
 author_profile: false
 sidebar:
     nav: "docs"
 ---
 
-## What is Arduino?
-Arduino is .
-
-## Turn on a LED

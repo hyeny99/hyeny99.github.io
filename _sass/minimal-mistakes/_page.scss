@@ -113,7 +113,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   /* paragraph indents */
@@ -576,3 +576,8 @@ body {
     }
   }
 }
+.page {
+  width: calc(100% - #{$right-sidebar-width-narrow});
+}
+
+

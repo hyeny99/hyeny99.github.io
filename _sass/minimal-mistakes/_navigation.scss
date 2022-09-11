@@ -23,7 +23,6 @@
   }
 
   ol {
-    padding: 0;
     list-style: none;
     font-size: $type-size-6;
 
@@ -33,7 +32,10 @@
     }
 
     @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+      //width: calc(100% - #{$right-sidebar-width});
+      padding-left: 0em;
+      margin-left: 0em;
+      width: calc(100% - #{$right-sidebar-width-narrow});
     }
   }
 
@@ -45,6 +47,7 @@
     font-weight: bold;
   }
 }
+
 
 /*
      Post pagination navigation links

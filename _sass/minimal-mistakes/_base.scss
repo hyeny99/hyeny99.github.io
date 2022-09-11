@@ -337,3 +337,13 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+.banner {
+  width:auto;
+  height: 15em;
+  background-image: url("../../assets/images/pickle.png");
+  background-size:  contain;
+  background-color: #7ec3ce;
+}
+
